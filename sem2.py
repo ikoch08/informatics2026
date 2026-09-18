@@ -53,10 +53,6 @@
 
 
 # #задача4
-# lst =list(map(int,input().split()))
-# if len(lst)%2==0: lst[::2], lst[1::2] = lst[1::2], lst[::2]; print(lst)
-# elif len(lst)%2!=0: a=lst[:-1]; a[::2], a[1::2] = a[1::2], a[::2]; a.append(lst[-1]); print(a)
-
 
 # #задача5
 # lst = [1, 2, 3, 4, 5]
@@ -77,19 +73,6 @@
 #         e=i
 #         c=a.count(i)
 # print(e)
-
-# #задача8
-# a=list(map(int,input().split()))
-# p=0
-# k=0
-# for i in a:
-#     for j in a:
-#         if i>j:
-#             p+=1
-#         elif i<j:
-#             k+=1
-#     if p==k:
-#         print(i)
 
 # #задача9
 # t=open('input.txt').read()
